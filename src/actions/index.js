@@ -1,4 +1,8 @@
-export const sayHello = () => ({
-  type: 'say_hello',
-  payload: 'hello'
-});
+import { SAY_HELLO } from './types';
+
+export const sayHello = (message) => {
+  return {
+    type: SAY_HELLO,
+    payload: `hello ${message}`
+  };
+};
