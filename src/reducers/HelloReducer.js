@@ -1,6 +1,6 @@
 import { SAY_HELLO, SAY_HELLO_ASYNC } from '../actions/types';
 
-const INITIAL_STATE = { message: '', asyncMessage: '' };
+const INITIAL_STATE = { message: '', asyncMessage: 'wait 2 second...' };
 
 export default (state = INITIAL_STATE, action) => {
   switch (action.type) {

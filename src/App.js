@@ -6,7 +6,7 @@ import ReduxThunk from 'redux-thunk';
 import firebase from 'firebase';
 
 import reducers from './reducers';
-import Hello from './components/Hello';
+import Router from './Router';
 
 class App extends Component {
 
@@ -27,7 +27,7 @@ class App extends Component {
 
     return (
       <Provider store={store}>
-        <Hello />
+        <Router />
       </Provider>
     );
   }
