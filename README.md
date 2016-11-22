@@ -1,11 +1,16 @@
 # react-native-starter
-react native starter, preinstall redux and Google firebase
+react native starter, preinstall redux, redux thunk, navigator router, Google firebase and lodash.
+eslint and editorconfig ready
 
 ![alt text](https://github.com/smalltide/react-native-starter/blob/master/screenshot.png "react-native-starter")
+![alt text](https://github.com/smalltide/react-native-starter/blob/master/screenshot2.png "react-native-starter")
 
 1. react native
 2. redux
-3. Google firebase
+3. redux-thunk
+4. react-native-router-flux
+5. Google firebase
+6. lodash
 
 ```
   > git clone git@github.com:smalltide/react-native-starter.git
