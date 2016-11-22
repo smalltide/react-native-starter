@@ -1,9 +1,10 @@
+import _ from 'lodash';
 import { SAY_HELLO_ASYNC } from './types';
 
 export const sayHelloAsync = (message) => {
   return (dispatch) => {
     //do time work here
-    setTimeout(() => {
+    _.delay(() => {
       dispatch({
         type: SAY_HELLO_ASYNC,
         payload: `hello async ${message}`
